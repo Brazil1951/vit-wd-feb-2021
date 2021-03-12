@@ -1,5 +1,4 @@
-//alert("Hello!");
-
+// alert("Hello!");
 
 var nameItAnything = 1;
 var anotherThing = 1;
@@ -9,24 +8,17 @@ var anotherThing = 1;
 // is nameItAnything == 2? no
 // anotherThing == nameItAnything? yes
 
-//var title = document.getElementById("grabMe");
-    //title.innerText = "Hello!";
+// var title = document.getElementById("grabMe");
+// title.innerText = "Hello!";
 
-
-    
-function turnBGblue(){
-    document.body.style.backgroundColor = "blue";
+function turnBGblue() {
+  document.body.style.backgroundColor = "blue";
 }
 
-turnBGblue(){}
-
-
-function changeTitleToNumber(){
-var title = document.getElementById("grabMe");
-title.innerText = nameItAnything;
+function changeTitleToNumber() {
+  var title = document.getElementById("grabMe");
+  title.innerText = nameItAnything;
 }
-changeTitleToNumber();
+// changeTitleToNumber();
 
-
-}
-
+// turnBGblue();

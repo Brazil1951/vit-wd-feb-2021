@@ -1,16 +1,11 @@
 body {
   height: 99vh;
   width: 99vw;
-  background-image: -moz-linear-gradient(
+  background-image: radial-gradient(
     purple,
     violet,
-    red,
-    orange,
-    yellow,
-    limegreen,
-    green,
-    lightblue,
-    blue
+    black,
+    white,
   );
 }
 
@@ -57,7 +52,7 @@ button {
   background-color: crimson;
 }
 
-.whyIsntThisWorking\?{
+#whyIsntThisWorking\?{
 background-image: url(https://www.nag.co.za/wp-content/uploads/2019/02/pikachu-shocked.png) !important;
 background-size: 100%;
 }

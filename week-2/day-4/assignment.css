@@ -1,3 +1,26 @@
+img {
+    width: 500px;
+    height: 500px;
+}
 
+#cssWindow {
+width: 500;
+height:500;
+border: solid 5px salmon;
+margin: 0 auto;
+}
 
-my first 3 files are empty
+#cssSlider {
+    display: flex;
+    overflow: hidden;
+    animation: carousel 10s infinite
+}
+
+@keyframes carousel {
+    from {
+        transform: translateX("0px");
+    }
+    to {
+        transform: translateX("-500px");
+    }
+}
