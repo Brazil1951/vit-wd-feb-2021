@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project Proposal</title>
+    <link rel="stylesheet" href="practice.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">For Web Developement Jobseekers</h1>
+          <p id="description" class="description text-center">
+            PLEASE READ: Before you complete this form, keep in mind that the information you submit here is viewable by the public. I have no control over who will be contacting you. Please make sure to do your research before responding to any inquiries. If this board has helped you land a role, I'd love to know about it and share the good news with others. Best of luck! - Dirceu
+          </p>
+        </header>
+
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+                <p>Professional summary</p>
+                <textarea
+                  id="summary"
+                  class="input-textarea"
+                  name="summary"
+                  placeholder="Enter your professional summary..."
+                ></textarea>
+              </div>
+
+          <div class="form-group">
+            <label id="profile-label" for="profile">LinkedIn profile URL</label>
+            <input
+              type="profile"
+              name="profile"
+              id="profile"
+              class="form-control"
+              placeholder="Enter your LinkedIn profile URL"
+              required
+            />
+          </div>
+          
+          <div class="form-group">
+            <label id="years-label" for="years">Years of Experience</label
+            >
+            <input
+              type="number"
+              name="years"
+              id="number"
+              min="0"
+              max="6"
+              class="form-control"
+              placeholder="Enter Years of Experience"
+            />
+          </div>
+
+          <div class="form-group">
+            <p>
+              What programming languages do you have experience with?
+              </p>
+        
+              <label
+              ><input
+                name="prefer"
+                value="HTML"
+                type="checkbox"
+                class="input-checkbox"
+              />HTML</label
+            >
+              <label
+              ><input
+                name="prefer"
+                value="CSS"
+                type="checkbox"
+                class="input-checkbox"
+              />CSS</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="JavaScript"
+                type="checkbox"
+                class="input-checkbox"
+              />JavaScript</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="React"
+                type="checkbox"
+                class="input-checkbox"
+              />React</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Angular"
+                type="checkbox"
+                class="input-checkbox"
+              />Angular</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="VueJS"
+                type="checkbox"
+                class="input-checkbox"
+              />VueJS</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Python"
+                type="checkbox"
+                class="input-checkbox"
+              />Python</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="PHP"
+                type="checkbox"
+                class="input-checkbox"
+              />PHP</label>
+            <label>
+
+              <input
+                name="prefer"
+                value="Java"
+                type="checkbox"
+                class="input-checkbox"
+              />Java</label>
+
+              <input
+                name="prefer"
+                value="C#"
+                type="checkbox"
+                class="input-checkbox"
+              />C#</label>
+          </div>
+
+          <div class="form-group">
+            <p>
+              What is your preferred job location?
+              </p>
+          
+              <label
+              ><input
+                name="prefer"
+                value="west"
+                type="checkbox"
+                class="input-checkbox"
+              />Remote Only</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="west"
+                type="checkbox"
+                class="input-checkbox"
+              />West (HI, CA, CO, AK, ID, MT, NV, OR, UT, WA, WY)</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="southwest"
+                type="checkbox"
+                class="input-checkbox"
+              />Southwest (AZ, NM, TX, OK)</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="midwest"
+                type="checkbox"
+                class="input-checkbox"
+              />Midwest (KS, IA, IL, WI, IN, MI, MN, MO, NE, ND, SD, OH)</label>
+
+            <label
+              ><input
+                name="prefer"
+                value="northeast"
+                type="checkbox"
+                class="input-checkbox"
+              />Northeast (NY, NJ, CT, VT, PA, RI, NH, MD, ME, MA, DC, DE)</label>
+            
+            <label
+              ><input
+                name="prefer"
+                value="southeast"
+                type="checkbox"
+                class="input-checkbox"
+              />Southeast (AL, AR, FL, GA, KY, LA, MS, NC, SC, TE, VA, WV)</label>
+            
+          </div>
+
+          <input type="button" onclick="myFunction()" value="submit">
+
+        </form>
+      </div>
+    
+<script src="practice.js"></script>
+</body>
+</html>
